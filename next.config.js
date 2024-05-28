@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+
+ /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     domains: [
@@ -6,11 +7,9 @@ const nextConfig = {
       'g4yqcv8qdhf169fk.public.blob.vercel-storage.com',
     ],
   },
-   "env": { API_URL: "https://yours-project.vercel.app"} 
-  const apiUrl = process.env.API_URL;
-  const res = await fetch(`${apiUrl}/api/jobs`, {
-  cache: "no-store",
-  }),
+  env: {
+    API_URL: "https://qr-page-git-main-melaniel18s-projects.vercel.app",
+  },
 };
 
 module.exports = nextConfig;
