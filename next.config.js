@@ -7,9 +7,8 @@ const nextConfig = {
       'g4yqcv8qdhf169fk.public.blob.vercel-storage.com',
     ],
   },
-  env: {
-    API_URL: "https://qr-page-git-main-melaniel18s-projects.vercel.app",
-  },
+
+  
 };
 
 module.exports = nextConfig;
